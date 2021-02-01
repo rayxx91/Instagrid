@@ -563,10 +563,10 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="button1" destination="TlL-IO-2de" id="Uyf-gH-269"/>
-                        <outlet property="button2" destination="R4d-Y0-EBp" id="UzQ-c1-ZRz"/>
-                        <outlet property="button3" destination="FPl-LP-Mim" id="19j-zb-obr"/>
-                        <outlet property="button4" destination="yDe-DV-jdm" id="wTd-N5-Iva"/>
+                        <outlet property="FourButton" destination="yDe-DV-jdm" id="m2Q-RD-DCn"/>
+                        <outlet property="OneButton" destination="TlL-IO-2de" id="jsT-zn-1wq"/>
+                        <outlet property="ThreeButton" destination="FPl-LP-Mim" id="7U4-qN-Cm4"/>
+                        <outlet property="TwoButton" destination="R4d-Y0-EBp" id="Ywo-qj-Tz2"/>
                         <outlet property="dispositionOneButton" destination="QYH-lU-h88" id="ycD-Bt-Mr7"/>
                         <outlet property="dispositionOneImage" destination="0nB-kL-Bvk" id="KDj-mV-xGC"/>
                         <outlet property="dispositionThreeButton" destination="Ijj-Bc-auB" id="hkp-gZ-2eT"/>
