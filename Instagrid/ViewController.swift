@@ -15,10 +15,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
     @IBOutlet weak var dispositionTwoButton: UIButton!
     @IBOutlet weak var dispositionThreeButton: UIButton!
     
-    @IBOutlet weak var button1: UIButton!
-    @IBOutlet weak var button2: UIButton!
-    @IBOutlet weak var button3: UIButton!
-    @IBOutlet weak var button4: UIButton!
+    @IBOutlet weak var OneButton: UIButton!
+    @IBOutlet weak var TwoButton: UIButton!
+    @IBOutlet weak var ThreeButton: UIButton!
+    @IBOutlet weak var FourButton: UIButton!
     
 
     @IBOutlet weak var dispositionOneImage: UIImageView!
@@ -50,18 +50,18 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
         switch style {
         case .topRectangle:
            
-            button1.isHidden = true
-            button3.isHidden = false
+            OneButton.isHidden = true
+            ThreeButton.isHidden = false
             dispositionOneImage.isHidden = false
             dispositionTwoImage.isHidden = true
             dispositionThreeImage.isHidden = true
             
         case .fourSquares:
             
-            button1.isHidden = false
-            button2.isHidden = false
-            button3.isHidden = false
-            button4.isHidden = false
+            OneButton.isHidden = false
+            TwoButton.isHidden = false
+            ThreeButton.isHidden = false
+            FourButton.isHidden = false
             
             dispositionOneImage.isHidden = true
             dispositionTwoImage.isHidden = false
@@ -69,8 +69,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
 
         case .bottomRectangle:
             
-            button1.isHidden = false
-            button3.isHidden = true
+            OneButton.isHidden = false
+            ThreeButton.isHidden = true
             dispositionOneImage.isHidden = true
             dispositionTwoImage.isHidden = true
             dispositionThreeImage.isHidden = false
@@ -102,7 +102,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
             self.squareView.transform = .identity
         })
     }
-    //fgbvc
+
     func convert(_ view: UIView) -> UIImage {
         
         UIGraphicsBeginImageContextWithOptions(view.bounds.size, view.isOpaque, 0.0)
