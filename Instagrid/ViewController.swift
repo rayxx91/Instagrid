@@ -102,7 +102,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
             self.squareView.transform = .identity
         })
     }
-    
+    //fgbvc
     func convert(_ view: UIView) -> UIImage {
         
         UIGraphicsBeginImageContextWithOptions(view.bounds.size, view.isOpaque, 0.0)
