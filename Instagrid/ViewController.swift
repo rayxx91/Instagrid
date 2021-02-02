@@ -8,8 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
-
-    var isActive: Bool = false
     
     @IBOutlet weak var dispositionOneButton: UIButton!
     @IBOutlet weak var dispositionTwoButton: UIButton!

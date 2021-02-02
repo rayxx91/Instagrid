@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instagrid" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wm-yJ-sEX">
-                                <rect key="frame" x="135.66666666666666" y="64" width="118.66666666666666" height="39"/>
+                                <rect key="frame" x="136.66666666666666" y="64" width="117" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="jUE-JL-qQQ">
                                         <variation key="heightClass=compact" constant="40"/>
@@ -350,10 +350,10 @@
                                 </variation>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="TTu-ht-waV">
-                                <rect key="frame" x="121" y="186.33333333333334" width="148" height="52.666666666666657"/>
+                                <rect key="frame" x="98" y="185" width="194" height="54"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Arrow Up" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X1K-n2-xKa">
-                                        <rect key="frame" x="66.666666666666657" y="0.0" width="15" height="22"/>
+                                        <rect key="frame" x="89.666666666666657" y="0.0" width="15" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="X1K-n2-xKa" secondAttribute="height" multiplier="15:22" id="Itn-rX-hhT"/>
                                             <constraint firstAttribute="width" constant="15" id="TLs-p7-6m1"/>
@@ -361,7 +361,7 @@
                                         <variation key="heightClass=compact" image="Arrow Left"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYo-6I-VXb">
-                                        <rect key="frame" x="0.0" y="26" width="148" height="26.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="26" width="194" height="28"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Swipe up to share">
                                                 <attributes>
@@ -563,10 +563,10 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="button1" destination="TlL-IO-2de" id="Uyf-gH-269"/>
-                        <outlet property="button2" destination="R4d-Y0-EBp" id="UzQ-c1-ZRz"/>
-                        <outlet property="button3" destination="FPl-LP-Mim" id="19j-zb-obr"/>
-                        <outlet property="button4" destination="yDe-DV-jdm" id="wTd-N5-Iva"/>
+                        <outlet property="FourButton" destination="yDe-DV-jdm" id="2al-v4-SWl"/>
+                        <outlet property="OneButton" destination="TlL-IO-2de" id="YuP-Ip-gw3"/>
+                        <outlet property="ThreeButton" destination="FPl-LP-Mim" id="nyQ-rP-I7E"/>
+                        <outlet property="TwoButton" destination="R4d-Y0-EBp" id="yp1-b9-WQA"/>
                         <outlet property="dispositionOneButton" destination="QYH-lU-h88" id="ycD-Bt-Mr7"/>
                         <outlet property="dispositionOneImage" destination="0nB-kL-Bvk" id="KDj-mV-xGC"/>
                         <outlet property="dispositionThreeButton" destination="Ijj-Bc-auB" id="hkp-gZ-2eT"/>
